@@ -13,6 +13,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @RibbonClients(defaultConfiguration = RibbonConfig.class)
 @EnableFeignClients
 @EnableCircuitBreaker
+
 public class VueClientApplication {
 
     public static void main(String[] args) {
